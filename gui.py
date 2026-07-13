@@ -706,8 +706,8 @@ class AboutPage(ctk.CTkFrame):
 
         btn_frame = ctk.CTkFrame(center, fg_color="transparent")
         btn_frame.pack(pady=16)
-        ctk.CTkButton(btn_frame, text="GitHub", width=100, fg_color=_ACCENT, hover_color=_ACCENT_HOVER, command=lambda: webbrowser.open("https://github.com")).pack(side="left", padx=6)
-        ctk.CTkButton(btn_frame, text="LinkedIn", width=100, fg_color="#0A66C2", hover_color="#084c91", command=lambda: webbrowser.open("https://linkedin.com")).pack(side="left", padx=6)
+        ctk.CTkButton(btn_frame, text="GitHub", width=100, fg_color=_ACCENT, hover_color=_ACCENT_HOVER, command=lambda: webbrowser.open("https://github.com/sohamfegade")).pack(side="left", padx=6)
+        ctk.CTkButton(btn_frame, text="LinkedIn", width=100, fg_color="#0A66C2", hover_color="#084c91", command=lambda: webbrowser.open("https://linkedin.com/in/sohamfegade")).pack(side="left", padx=6)
 
 
 class App(ctk.CTk):
