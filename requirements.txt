@@ -1,0 +1,37 @@
+# ============================================================
+# NewsScrape Pro — Requirements
+# Advanced Multi-Source News Headline Scraper
+# ============================================================
+
+# --- GUI Framework ---
+customtkinter>=5.2.1
+
+# --- Web Scraping ---
+requests>=2.31.0
+beautifulsoup4>=4.12.3
+lxml>=5.2.2
+
+# --- Data Processing ---
+pandas>=2.2.2
+numpy>=1.26.4
+
+# --- Visualization ---
+matplotlib>=3.9.0
+
+# --- Export ---
+openpyxl>=3.1.5
+
+# --- Automation & Scheduling ---
+schedule>=1.2.2
+
+# --- Configuration ---
+python-dotenv>=1.0.1
+
+# --- Image Handling ---
+Pillow>=10.4.0
+
+# --- Progress Display (CLI fallback) ---
+tqdm>=4.66.4
+
+# --- Packaging (Phase 7) ---
+# pyinstaller>=6.8.0

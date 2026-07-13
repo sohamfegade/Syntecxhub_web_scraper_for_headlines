@@ -1,0 +1,124 @@
+{
+    "sources": [
+        {
+            "name": "BBC News",
+            "base_url": "https://www.bbc.com/news",
+            "enabled": true,
+            "category": "General",
+            "selectors": {
+                "article": "[data-testid='news-card'], [data-testid='edinburgh-card']",
+                "title": "h2, [data-testid='card-headline']",
+                "link": "a",
+                "link_attr": "href",
+                "time": "time",
+                "author": ".author-name",
+                "category": "[data-testid='card-metadata-tag']"
+            }
+        },
+        {
+            "name": "Reuters",
+            "base_url": "https://www.reuters.com",
+            "enabled": true,
+            "category": "World",
+            "selectors": {
+                "article": "li article, [class*='story-card']",
+                "title": "h3, [data-testid='Heading']",
+                "link": "a",
+                "link_attr": "href",
+                "time": "time",
+                "author": "[class*='author']",
+                "category": "[class*='topic-label'], [class*='label']"
+            }
+        },
+        {
+            "name": "CNN",
+            "base_url": "https://edition.cnn.com",
+            "enabled": true,
+            "category": "World",
+            "selectors": {
+                "article": ".container__item, [data-component-name='card']",
+                "title": ".container__headline-text, span.container__headline-text",
+                "link": "a",
+                "link_attr": "href",
+                "time": "time",
+                "author": ".byline__name",
+                "category": ".label-text"
+            }
+        },
+        {
+            "name": "NDTV",
+            "base_url": "https://www.ndtv.com/latest",
+            "enabled": true,
+            "category": "India",
+            "selectors": {
+                "article": ".news_Ede, .lst-pg_lst",
+                "title": ".newsHdng a, .nws_t a",
+                "link": "a",
+                "link_attr": "href",
+                "time": ".pst-by_tm, .posted-by span",
+                "author": ".pst-by_nm, .posted-by__name",
+                "category": ".tag_lnk"
+            }
+        },
+        {
+            "name": "The Hindu",
+            "base_url": "https://www.thehindu.com/news/",
+            "enabled": true,
+            "category": "India",
+            "selectors": {
+                "article": ".element, .story-card, .Other_StoryCard",
+                "title": "h3 a, .title a, .story-card-heading a",
+                "link": "a",
+                "link_attr": "href",
+                "time": "time, .date",
+                "author": ".author-name, .story-card-author",
+                "category": ".label"
+            }
+        },
+        {
+            "name": "Indian Express",
+            "base_url": "https://indianexpress.com/latest-news/",
+            "enabled": true,
+            "category": "India",
+            "selectors": {
+                "article": ".articles, .northeast-topbox",
+                "title": "h2 a, .title a",
+                "link": "a",
+                "link_attr": "href",
+                "time": ".date, time",
+                "author": ".author",
+                "category": ".category"
+            }
+        },
+        {
+            "name": "Times of India",
+            "base_url": "https://timesofindia.indiatimes.com/news",
+            "enabled": true,
+            "category": "India",
+            "selectors": {
+                "article": ".col_l_6 .content, li[class*='top-newslist']",
+                "title": "a, .w_tle a",
+                "link": "a",
+                "link_attr": "href",
+                "time": "time, .meta-info .date",
+                "author": ".author-name",
+                "category": ".category"
+            }
+        },
+        {
+            "name": "Al Jazeera",
+            "base_url": "https://www.aljazeera.com/news/",
+            "enabled": true,
+            "category": "World",
+            "selectors": {
+                "article": "article, .gc__content",
+                "title": "h3 a, .gc__title a",
+                "link": "a",
+                "link_attr": "href",
+                "time": "time, .date-simple",
+                "author": ".author-link",
+                "category": ".topic-label"
+            }
+        }
+    ]
+}

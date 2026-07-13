@@ -1,0 +1,54 @@
+# ==============================================================
+# NewsScrape Pro — Git Ignore
+# ==============================================================
+
+# --- Byte-compiled / optimised ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# --- OS artefacts ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Distribution / packaging ---
+dist/
+build/
+*.spec
+*.egg-info/
+
+# --- Environment variables ---
+.env
+
+# --- Logs (keep the directory, ignore contents) ---
+logs/*.log
+
+# --- Database (keep the directory, ignore contents) ---
+database/*.db
+
+# --- Exports (keep the directory, ignore contents) ---
+exports/*
+!exports/.gitkeep
+
+# --- Config overrides ---
+config/user_settings.ini
+
+# --- Backups ---
+backups/
